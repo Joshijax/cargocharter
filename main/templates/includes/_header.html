@@ -1,0 +1,86 @@
+ <!-- Header Upper -->
+ {% load static %}
+    <div class="header-upper">
+      <div class="auto-container">
+        <div class="inner-container clearfix"> 
+          <!--Info-->
+          <div class="logo-outer">
+            <div class="logo logo-1"> <a href="/"><h4 style="color:#0888c0;"> <img src="{% static 'images/favicon.png' %}" width="30" alt="">
+              Cargocharter</h4></a> </div>
+          </div>
+          <!--Nav Box-->
+          <div class="nav-outer clearfix"> 
+            <!--Mobile Navigation Toggler For Mobile-->
+            <div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
+            <nav class="main-menu navbar-expand-md navbar-light">
+              <div class="navbar-header"> 
+                <!-- Togg le Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="icon flaticon-menu"></span> </button>
+              </div>
+              <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
+                <ul class="navigation clearfix">
+                <li><a href="/">Home</a></li>
+                <li class="dropdown"><a href="javascript:void(0)">Booking</a>
+                  <ul>
+                    <li><a href="/tracking">Book a Pick Up</a></li>
+                    <li><a href="/tracking">Book a special delivery service</a></li>
+                    {% comment %} <li><a href="forms.html">Forms</a></li>
+                    <li><a href="buttons.html">Buttons</a></li>
+                    <li><a href="grid.html">Grid</a></li>
+                    <li><a href="icons.html">Icons</a></li>
+                    <li><a href="tables.html">Tables</a></li>
+                    <li><a href="progress-bars.html">Progress bars</a></li> {% endcomment %} </ul> 
+                </li>
+                  <li class="dropdown"><a href="javascript:void(0)">Track</a>
+                    <ul>
+                      <li><a href="/tracking">Track &amp; Trace</a></li>
+                      <li><a href="/tracking">Delivery Update</a></li>
+                      <li><a href="/tracking">Make a Claim</a></li>
+                      <li><a href="/tracking">Receiving your parcels</a></li>
+                      {% comment %} <li><a href="error.html">Error Page</a></li>
+                      <li><a href="coming-soon.html">Coming Soon</a></li> {% endcomment %}
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="javascript:void(0)">Services</a>
+                    <ul>
+                      <li><a href="/services">Services</a></li>
+                      <li><a href="service-details.html">Service Details</a></li>
+                    </ul>
+                  </li>
+                  
+                  <li><a href="/contact">Contact Us</a></li>
+                  <li class="dropdown"><a href="javascript:void(0)">Faq</a>
+                   
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <!-- Main Menu End--> 
+            <!-- Main Menu End-->
+            <div class="outer-box clearfix"> 
+              <!--Search Box-->
+              <div class="search-box-outer">
+                <div class="dropdown">
+                  <button class="search-box-btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="ti ti-search"></span></button>
+                  <ul class="dropdown-menu pull-right search-panel" aria-labelledby="dropdownMenu1">
+                    <li class="panel-outer">
+                      <div class="form-container">
+                        <form method="post" action="blog.html">
+                          <div class="form-group">
+                            <input type="search" name="field-name" value="" placeholder="Search Here" required>
+                            <button type="submit" class="search-btn"><span class="fa fa-search"></span></button>
+                          </div>
+                        </form>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Button Box -->
+              <div class="btn-box"> <a href="#quote-popup" class="theme-btn vendor-btn open-popup-link">Get started</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Header Upper--> 
